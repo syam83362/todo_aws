@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR index.js
+WORKDIR /app
 COPY package*.json ./
 COPY . .
 EXPOSE 4000
